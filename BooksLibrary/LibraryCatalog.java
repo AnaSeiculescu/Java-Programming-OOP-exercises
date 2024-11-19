@@ -1,7 +1,7 @@
 public class LibraryCatalog {
 	Book book1;  // agregation
-	Book book2;  // agregation
-	Book book3;  //agregation
+	Book book2;
+	Book book3;
 
 	public void addBook(Book book) {
 		if (book1 == null) {
