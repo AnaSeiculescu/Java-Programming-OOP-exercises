@@ -41,8 +41,20 @@ public class LibraryCatalog {
 
 	public void listBooks() {
 		System.out.println("\nListing all the books:");
-		System.out.println("book1: " + book1);
-		System.out.println("book2: " + book2);
-		System.out.println("book3: " + book3);
+		if (book1 != null) {
+			System.out.println("book1: " + book1);
+		} else {
+			System.out.println("book1 is unavailable.");
+		}
+		if (book2 != null) {
+			System.out.println("book2: " + book2);
+		} else {
+			System.out.println("book2 is unavailable.");
+		}
+		if (book3 != null) {
+			System.out.println("book3: " + book3);
+		} else {
+			System.out.println("book3 is unavailable.");
+		}
 	}
 }
